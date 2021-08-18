@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="edittextusuario">Usuario</string>
+    <string name="edittextcontrasenia">Contraseña</string>
+    <string name="buttonAceptarLogin">Login</string>
+    <string name="buttonMostrarClientes">Mostrar Clientes</string>
+    <string name="buttonMostrarProductos">Mostrar Productos</string>
+    <string name="buttonMostrarVentas">Mostrar Ventas</string>
+    <string name="buttonMostrarConceptos">Mostrar Conceptos</string>
+    <string name="buttonMostrarUsuarios">Mostrar Usuarios</string>
+    <string name="textviewBienvenida">Bienvenido al Sistema</string>
+    <string name="textviewMenuPrincipal">Menú Principal</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>
