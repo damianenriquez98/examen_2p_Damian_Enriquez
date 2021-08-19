@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
                     public void accept(String s) throws Exception {
                         Toast.makeText(MainActivity.this,s,Toast.LENGTH_SHORT).show();
                         dialog.dismiss();
-
                     }
                 }, new Consumer<Throwable>() {
                     @Override
