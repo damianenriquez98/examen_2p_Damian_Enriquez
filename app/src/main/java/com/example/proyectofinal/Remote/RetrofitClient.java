@@ -13,8 +13,8 @@ public class RetrofitClient {
     public static Retrofit getInstance() {
         if (instance==null)
             instance=new Retrofit.Builder()
-                    //https://wsventa202110817231843.azurewebsites.net/api/user/login
-                            .baseUrl("https://wsventa202110817231843.azurewebsites.net/api/")
+                    //https://wsventa20210817231843.azurewebsites.net/api/user/login
+                            .baseUrl("https://wsventa20210817231843.azurewebsites.net/api/")
                             .addConverterFactory(ScalarsConverterFactory.create())
                             .addConverterFactory(GsonConverterFactory.create())
                             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
