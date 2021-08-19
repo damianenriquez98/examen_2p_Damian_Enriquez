@@ -9,6 +9,6 @@ import retrofit2.http.GET;
 
 
 public interface IMyAPICategoria {
-    @GET("api/User/login")
+    @GET("api/Categoria")
     Observable<String>mostrarCategorias(@Body tblCategoria categoria);
 }
