@@ -23,11 +23,11 @@ import java.util.ArrayList;
 
 public class ActivityMenuPrincipal extends AppCompatActivity {
 
-    //Cliente cliente = new Cliente();
-    //Producto producto = new Producto();
-    //Concepto concepto = new Concepto();
+    //tblCliente cliente = new tblCliente();
+    //tlbProducto producto = new tlbProducto();
+    //tblConcepto concepto = new tblConcepto();
     //Usuario usuario = new Usuario();
-    //Venta venta = new Venta();
+    //tblVenta venta = new tblVenta();
 
     private ListView listViewDatos;
 

@@ -1,6 +1,6 @@
-package enriquez.damian.proyectofinal;
+package com.example.proyectofinal.Model;
 
-public class Producto {
+public class tlbProducto {
     private int id;
     private String nombre;
     private float precioUnitario;
@@ -8,11 +8,11 @@ public class Producto {
     private int cantidad;
     private float iva;
 
-    public Producto(){
+    public tlbProducto(){
 
     }
 
-    public Producto(int id, String nombre, float precioUnitario, float coste, int cantidad, float iva) {
+    public tlbProducto(int id, String nombre, float precioUnitario, float coste, int cantidad, float iva) {
         this.id = id;
         this.nombre = nombre;
         this.precioUnitario = precioUnitario;

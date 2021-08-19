@@ -1,6 +1,6 @@
-package enriquez.damian.proyectofinal;
+package com.example.proyectofinal.Model;
 
-public class Cliente {
+public class tblCliente {
     private int id;
     private String cedula;
     private String nombre;
@@ -9,11 +9,11 @@ public class Cliente {
     private String direccion;
     private String email;
 
-    public Cliente(){
+    public tblCliente(){
 
     }
 
-    public Cliente(int id, String cedula, String nombre, int edad, String telefono, String direccion, String email){
+    public tblCliente(int id, String cedula, String nombre, int edad, String telefono, String direccion, String email){
         this.id = id;
         this.cedula = cedula;
         this.nombre = nombre;

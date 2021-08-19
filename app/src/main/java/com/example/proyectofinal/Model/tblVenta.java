@@ -1,8 +1,8 @@
-package enriquez.damian.proyectofinal;
+package com.example.proyectofinal.Model;
 
 import java.util.Date;
 
-public class Venta {
+public class tblVenta {
     private int id;
     private int idCliente;
     private int idUsuario;
@@ -11,11 +11,11 @@ public class Venta {
     private float total;
     private String estado;
 
-    public Venta(){
+    public tblVenta(){
 
     }
 
-    public Venta(int id, int idCliente, int idUsuario, Date fecha, float subtotal, float total, String estado) {
+    public tblVenta(int id, int idCliente, int idUsuario, Date fecha, float subtotal, float total, String estado) {
         this.id = id;
         this.idCliente = idCliente;
         this.idUsuario = idUsuario;

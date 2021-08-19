@@ -1,6 +1,6 @@
-package enriquez.damian.proyectofinal;
+package com.example.proyectofinal.Model;
 
-public class Concepto {
+public class tblConcepto {
     private int id;
     private int idVenta;
     private int idProducto;
@@ -9,11 +9,11 @@ public class Concepto {
     private float iva;
     private float descuento;
 
-    public Concepto(){
+    public tblConcepto(){
 
     }
 
-    public Concepto(int id, int idVenta, int idProducto, int cantidad, float precioUnitario, float iva, float descuento) {
+    public tblConcepto(int id, int idVenta, int idProducto, int cantidad, float precioUnitario, float iva, float descuento) {
         this.id = id;
         this.idVenta = idVenta;
         this.idProducto = idProducto;
